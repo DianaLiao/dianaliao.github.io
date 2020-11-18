@@ -21,10 +21,11 @@ nav a{
 	font-size: 200%;
 	margin-bottom: 5px;
 	background-color: rgb(170, 185, 225);
+	color: rgb(128, 0, 128);
 }
 
-nav a:visited{
-	
+nav a.active{
+	color: white;
 }
 
 main {
@@ -38,6 +39,7 @@ main {
 
 section {
 	padding-left: 10px;
+	margin-bottom: 10px;
 }
 
 h1 {
