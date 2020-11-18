@@ -1,0 +1,60 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+	width: 20%;
+	display: inline-block;
+	background-color: rgb(119 121 127);
+	height: 100%;
+	float: left;
+}
+
+nav a{
+	text-decoration: none;
+	margin: 0 auto;
+	font-family: Impact, Charcoal, sans-serif;
+	display: block;
+	padding:10px;
+	font-size: 200%;
+	margin-bottom: 5px;
+	background-color: rgb(170, 185, 225);
+}
+
+nav a:visited{
+	
+}
+
+main {
+	width: 70%;
+	display: inline-block;
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+
+}
+
+
+section {
+	padding-left: 10px;
+}
+
+h1 {
+	width:95%;
+	font-size: 150%;
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+	margin-left:10px;
+}
+
+img {
+	margin: 0 auto;
+	width: 40%;
+	border-radius: 15px;
+	display: block;
+}
+
+table{
+	margin-left:25px;
+}
