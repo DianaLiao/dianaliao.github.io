@@ -26,6 +26,11 @@ nav a{
 
 nav a.active{
 	color: white;
+	
+}
+
+nav a:hover {
+	background-color: rgba(170, 185, 225, 0.8);
 }
 
 main {
@@ -50,8 +55,18 @@ h1 {
 	margin-left:10px;
 }
 
-img {
+li.done {
+	text-decoration: line-through;
+	font-style: italic;
+	color: rgb(100,100,100);
+}
+
+img, figure {
 	margin: 0 auto;
+	text-align:center;
+}
+
+img{	
 	width: 40%;
 	border-radius: 15px;
 	display: block;
@@ -59,4 +74,18 @@ img {
 
 table{
 	margin-left:25px;
+}
+
+figure {
+	font-size: 75%;
+}
+
+footer {
+	display: inline-block;
+	padding-left: 10px;
+	width:70%;
+	text-align:center;
+}
+
+#social{
 }
